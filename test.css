@@ -1,0 +1,34 @@
+body{
+    border: 5px solid green;
+}
+.rashik, .kawish, .kislay {
+    border: 2px solid black;
+    box-sizing: border-box;
+    flex-basis: auto;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: 200px;
+    column-gap: 20px;
+    border: 5px solid yellow;
+}
+.rashik{
+    background-color: red;
+}
+.kawish{
+    background-color: green;
+}
+.kislay{
+    background-color: blue;
+}
+span{
+
+    background-color: red;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    height: 100px;
+}
